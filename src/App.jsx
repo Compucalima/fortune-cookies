@@ -15,6 +15,16 @@ function App() {
         setIndex(0)
       }
   }
+  let rutaCompleta = ruta + images[2]
+  console.log(rutaCompleta);
+
+  // style={articleCardStyle}
+  const articleCardStyle = {
+    backgroundImage: `url(${rutaCompleta})`,
+  };
+  
+  // document.body.style = `background-image: url(${rutaCompleta})`
+  // background-image: url(./assets/img/fondo1.jpg);
   
   return (
     <>
