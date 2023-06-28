@@ -28,7 +28,7 @@
   font-family: 'Rubik Dirt', cursive;
   font-size: 35px;
   letter-spacing: 4px;
-  color: rgb(131, 67, 7);
+  color: rgb(100, 51, 6);
   text-shadow:  rgb(253, 253, 253) 1px 0 4px;
 }
 .titulo__app {
@@ -46,10 +46,10 @@
 }
 .message__content {
   width: 550px;
-  height: 200px;
+  height: 230px;
   margin-top: 55px;
   margin-bottom: 55px;
-  padding: 20px 70px ;
+  padding: 20px 40px ;
   background-color: rgba(240, 255, 255, 0.543);
   box-shadow: 0px 60px 10px -35px rgba(6, 6, 6, 0.563);
   border-radius: 10px;
@@ -57,12 +57,13 @@
 .autor{
   display: flex;
   justify-content: center;
+  color: #fff;
   margin-top: 10px;
   background-color: #fc4c4c;
   margin-top: 15px;
-  border-radius: 7px; 
   font-weight: bold;
-  
+  text-shadow: none;
+  padding: 5px 3px;
 }
 .message__button {
   cursor: pointer;
@@ -98,18 +99,47 @@
 @media screen and (max-width: 479px) {
   .message__content {
     padding: 5px 15px ;
-    width: 250px;
-    height: 300px;
+    width: 290px;
+    height: 230px;
     margin-top: 15px;
     transition: 0.5s ease-in-out;
+    font-size: 20px;
   }
   .article__card {
-    width: 300px;
-    height: 650px;
+    width: 350px;
+    height: 555px;
     border-radius: 40px 7px 40px 7px;
     transition: 0.5s ease-in-out;
+    margin: 10px;
   }
   .titulo__app h1 {
     font-size: 25px;
   } 
+  .sub__titulo{
+    font-size: 20px;
+  }
+  .message__button {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 281px) {
+  .message__content {
+    width: 230px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  .article__card {
+    height: 500px;
+    margin: 7px;
+  }
+  .titulo__app h1 {
+    font-size: 20px;
+  } 
+  .sub__titulo{
+    font-size: 18px;
+  }
+  .message__button {
+    font-size: 15px;
+  }
 }
