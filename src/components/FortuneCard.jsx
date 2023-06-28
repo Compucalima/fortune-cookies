@@ -7,6 +7,7 @@ const FortuneCard = ({data}) => {
                 <p className="message">{data.phrase}</p>
                 <p className="autor">{data.author}</p>
             </div>
+
         </div>
     )
 }
