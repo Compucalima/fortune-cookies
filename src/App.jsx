@@ -24,7 +24,7 @@ function App() {
           data={frases[ Math.floor(Math.random() * index) ]} 
         />
         <div className='container__buttons'>
-          <button className="message__button" onClick={nextPhrase}>Ver otro</button>
+          <button className="message__button" onClick={nextPhrase}>Ver fortuna</button>
         </div>
       </article>
     </>

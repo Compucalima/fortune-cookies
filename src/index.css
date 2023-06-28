@@ -50,7 +50,7 @@
   margin-top: 55px;
   margin-bottom: 55px;
   padding: 20px 70px ;
-  background-color: azure;
+  background-color: rgba(240, 255, 255, 0.543);
   box-shadow: 0px 60px 10px -35px rgba(6, 6, 6, 0.563);
   border-radius: 10px;
 }
@@ -61,6 +61,8 @@
   background-color: #fc4c4c;
   margin-top: 15px;
   border-radius: 7px; 
+  font-weight: bold;
+  
 }
 .message__button {
   cursor: pointer;
