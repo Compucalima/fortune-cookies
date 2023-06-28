@@ -3,7 +3,7 @@ import FortuneCard from './components/FortuneCard'
 import frases from './data/phrases.json'
 import { useState } from 'react'
 function App() {
-  const rutaBase = './src/assets/img/'
+  const rutaBase = '/img/'
   const images = ['fondo1.jpg', 'fondo2.jpg', 'fondo3.jpg', 'fondo4.jpg']
   const [index, setIndex] = useState(0)
   const nextPhrase = () => {
